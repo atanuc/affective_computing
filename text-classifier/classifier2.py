@@ -70,7 +70,6 @@ def fet(ln,cn):
     for w in wrd:
         if w.isalpha() and (len(w)>=1):
             lst.append(w)
-    #post=nltk.pos_tag(lst)
     if(cn%1000==0):
         print cn,
     les={}
