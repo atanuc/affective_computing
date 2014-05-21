@@ -146,57 +146,6 @@ for ln in posit[0:5000]:
 
 cn=0
 
-"""def fet(ln,cn):
-    wrd=ln.split()
-    lst=[]
-    for w in wrd:
-        if w.isalpha() and (len(w)>=1):
-            lst.append(w)
-    #post=nltk.pos_tag(lst)
-    if(cn%1000==0):
-        print cn,
-    les={}
-    for w in dicy:
-        les["%s" % w]=0
-    fg=1
-    for i in range(0,len(lst)):
-        t=ste.stem(lst[i])
-        if t in dicy:
-            if(lst[i] not in 'not'):
-                les["%s" % t]+=(fg)
-                fg=1
-            else:
-                fg*=(-1)
-    return les
-    for w in dicy:
-        t=ste.stem(w)
-        les["%s" % ("n-"+w)]=0
-        les["%s" % ("a-"+w)]=0
-        les["%s" % ("r-"+w)]=0
-        les["%s" % ("v-"+w)]=0
-    for i in range(0,len(lst)):
-        if(lst[i] not in 'not'):
-            t=valu(lst[i],post[i][1])
-            if(t==1):
-                les["%s" % ("a-"+w)]+=1
-            elif(t==2):
-                les["%s" % ("n-"+w)]+=1
-            elif(t==3):
-                les["%s" % ("r-"+w)]+=1
-            elif(t==4):
-                les["%s" % ("v-"+w)]+=1
-        else:
-            t=valu(lst[i],post[i][1])
-            if(t==1):
-                les["%s" % ("a-"+w)]-=1
-            elif(t==2):
-                les["%s" % ("n-"+w)]-=1
-            elif(t==3):
-                les["%s" % ("r-"+w)]-=1
-            elif(t==4):
-                les["%s" % ("v-"+w)]-=1
-    return les"""
-
 data=[]
 
 for i in range(0,len(vect)):
