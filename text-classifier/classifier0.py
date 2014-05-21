@@ -34,7 +34,6 @@ stop.remove('not')
 for w in emo[0:6]:
     print w
     a=open(w+".txt","r")
-    #b=open(w+"2.txt","w")
     st=a.read()
     pq=re.split('\W+',st)
     awd=[]
@@ -45,9 +44,7 @@ for w in emo[0:6]:
     wdemo["%s" % w]=set(awd)
 
     for wd in wdemo["%s" % w]:
-        #b.write(wd+"\n")
         dict["%s" % wd]=w
-    #b.close()
 
 while(1):
     c=raw_input("GIMME!\n")
