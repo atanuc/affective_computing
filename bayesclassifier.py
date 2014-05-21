@@ -50,10 +50,6 @@ for ln in post:
 
 print len(dicy)
 
-"""for i in range(0,len(dicy)):
-    if(i%20==0):
-        print dicy[i],"""
-
 def valu(c,t):
     if c in dicy:
             if ('JJ' in t):
@@ -90,34 +86,6 @@ def fet(ln,cn):
             else:
                 fg*=(-1)
     return les
-    """for w in dicy:
-        t=ste.stem(w)
-        les["%s" % ("n-"+w)]=0
-        les["%s" % ("a-"+w)]=0
-        les["%s" % ("r-"+w)]=0
-        les["%s" % ("v-"+w)]=0
-    for i in range(0,len(lst)):
-        if(lst[i] not in 'not'):
-            t=valu(lst[i],post[i][1])
-            if(t==1):
-                les["%s" % ("a-"+w)]+=1
-            elif(t==2):
-                les["%s" % ("n-"+w)]+=1
-            elif(t==3):
-                les["%s" % ("r-"+w)]+=1
-            elif(t==4):
-                les["%s" % ("v-"+w)]+=1
-        else:
-            t=valu(lst[i],post[i][1])
-            if(t==1):
-                les["%s" % ("a-"+w)]-=1
-            elif(t==2):
-                les["%s" % ("n-"+w)]-=1
-            elif(t==3):
-                les["%s" % ("r-"+w)]-=1
-            elif(t==4):
-                les["%s" % ("v-"+w)]-=1
-    return les"""
 
 tgt=[]
 vect=[]
