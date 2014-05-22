@@ -1,0 +1,21 @@
+Affective Computing
+===================
+
+Introduction:
+
+ -Affective computing aka Emotion recognition is a branch which has been an interesting reasearch area for quite a time now.
+  For those of you wondering why the heck we chose such a name, ... Interest in this area was sparked off in 1995 by a paper
+  written by Rosalind Picard. The paper was named Affective Computing and the name sticks.
+  
+What are we doing:
+
+ - There have been many research papers about emotion detection using only the facial features, this has some drawbacks as a 
+   single classifier may get confused between some emotions. Let's say we are given a video, then wouldn't it be better if we
+   use all the given information, not only the visual part?
+ - So our approach is basically using a triad based method i.e. considering all visual, audio and textual data for 
+   classification. We expect this to increase the accuracy of the classifier. Let's say the visual-emotion classifier is 
+   confused between some emotions, then the audio-classifier may come to the rescue. So this is the inspiration for our three
+   way approach to emotion recognition.
+
+ - (Visual data can be timed shots of the video, audio data are the features of the voice (of the subject), textual data 
+   is similar to the subtitles of the video (can be obtained by a speech-text api)).
