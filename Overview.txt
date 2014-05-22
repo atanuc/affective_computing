@@ -19,3 +19,6 @@ What are we doing:
 
  - (Visual data can be timed shots of the video, audio data are the features of the voice (of the subject), textual data 
    is similar to the subtitles of the video (can be obtained by a speech-text api)).
+
+
+
